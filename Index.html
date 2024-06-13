@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title Here</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/gsap.min.js"></script>
+    
+</head>
+<body>
+     <!-- navigation bar -->
+     <header>
+        <nav class="navbar">
+            <div class="container">
+                <!-- <a href="#" class="logo">Your Logo</a> -->
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+   <!-- main contect of the page -->
+   <main>
+     <!-- home section (landing page ) -->
+     <section id="home">
+        <video autoplay muted loop id="video-bg">
+            <source src="/eye.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="home-content">
+            <h1 class="home-title">Discover Beauty</h1>
+            <p class="home-description">Explore our range of high-quality cosmetics and beauty products.</p>
+            <a href="#services" class="btn">Shop Now</a>
+        </div>
+        <div class="dynamic-content">
+            <div class="content-item" id="content1">
+                <p class="content-description">cosmetics for sale</p>
+                <img src="store.jpg" alt="Image 1">
+            </div>
+            <div class="content-item" id="content2">
+                <p class="content-description">Nails </p>
+                <img src="/show.jpg" alt="Image 2">
+            </div>
+            <div class="content-item" id="content3">
+                <
+                <p class="content-description">Selling  jewelry</p>
+                <img src="sell.jpg" alt="Image 3">
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- service section -->
+    <section id="services">
+        <h2 class="section-title">Services</h2>
+        <div class="container">
+            <div class="services-list">
+                <div class="service">
+                    <h3 class="service-title">Nails</h3>
+                    <img src="/show.jpg" alt="Nails Service" class="service-image">
+                    <p class="service-description">We offer professional nail care services to keep your nails looking fabulous.</p>
+                </div>
+                <div class="service">
+                    <h3 class="service-title">Selling Beauty Products</h3>
+                    <img src="/store.jpg" alt="Beauty Products" class="service-image">
+                    <p class="service-description">Discover a range of beauty products including lotions, creams, and makeup essentials.</p>
+                </div>
+                <div class="service">
+                    <h3 class="service-title">Beauty Makeup Center</h3>
+                    <img src="/makeup.jpg" alt="Makeup Center" class="service-image">
+                    <p class="service-description">Visit our beauty makeup center for expert makeup services and tutorials.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+ <!-- about section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are passionate about beauty and dedicated to providing top-notch services to our clients. Our mission is to enhance your natural beauty and boost your confidence.</p>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="/show.jpg" alt="Nail Care" class="gallery-image">
+                    <div class="image-description">Nail Care</div>
+                </div>
+                <div class="image-container">
+                    <img src="/Ms.jpg" alt="Beauty Products" class="gallery-image">
+                    <div class="image-description">Beauty Products</div>
+                </div>
+                <div class="image-container">
+                    <img src="/makeup.jpg" alt="Makeup Services" class="gallery-image">
+                    <div class="image-description">Makeup Services</div>
+                </div>
+            </div>
+            <div class="info"> 
+            <p>At our beauty center, we offer a wide range of services including professional nail care, selling high-quality beauty products, and expert makeup services. Our team of skilled professionals ensures that you receive the best care and personalized attention.</p>
+            <p>With years of experience in the beauty industry, we strive to stay updated with the latest trends and techniques to deliver exceptional results. Your satisfaction is our priority, and we are committed to creating a relaxing and enjoyable experience for every visit.</p>
+           </div>
+        </div>
+        <div class="offers-container">
+            <div class="offers" id="offers">
+                <h3 class="offers-title" id="blink">Special Offers</h3>
+                <ul class="offers-list">
+                    <li class="offer-item">Grand Opening Discount: Enjoy 20% off on all services during our grand opening week!</li>
+                    <li class="offer-item">Free Makeup Consultation: Get a complimentary makeup consultation with any beauty product purchase.</li>
+                    <li class="offer-item">First-Time Customer Offer: New customers receive a special discount on their first visit.</li>
+                </ul>
+            </div>
+        </div>        
+        </div>
+    </section>
+ </main>
+
+ <!-- footer of the page -->
+ <footer>
+    <div id="Contact" class="container-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="nail.jpg" alt="Your Logo">
+                <p>Nails & Cosmetics</p>
+            </div>
+            <div class="social-media">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/yourpage" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="icon">
+                        <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+                    </svg></a></li>
+                    <li><a href="https://twitter.com/youraccount" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="icon">
+                        <path d="M 11 4 C 7.1456661 4 4 7.1456661 4 11 L 4 39 C 4 42.854334 7.1456661 46 11 46 L 39 46 C 42.854334 46 46 42.854334 46 39 L 46 11 C 46 7.1456661 42.854334 4 39 4 L 11 4 z M 11 6 L 39 6 C 41.773666 6 44 8.2263339 44 11 L 44 39 C 44 41.773666 41.773666 44 39 44 L 11 44 C 8.2263339 44 6 41.773666 6 39 L 6 11 C 6 8.2263339 8.2263339 6 11 6 z M 13.085938 13 L 22.308594 26.103516 L 13 37 L 15.5 37 L 23.4375 27.707031 L 29.976562 37 L 37.914062 37 L 27.789062 22.613281 L 36 13 L 33.5 13 L 26.660156 21.009766 L 21.023438 13 L 13.085938 13 z M 16.914062 15 L 19.978516 15 L 34.085938 35 L 31.021484 35 L 16.914062 15 z"></path>
+                    </svg></a></li>
+                    <li><a href="https://www.instagram.com/youraccount" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="icon">
+                        <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                    </svg></a></li>
+                </ul>
+            </div>
+            <p class="copyright">© 2024 Nails & Cosmetics. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="js/gsap.min.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>

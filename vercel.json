@@ -1,5 +1,5 @@
 {
-    "rewrites":[
-        {"sources":"/(.*)","destination":"/"}
-    ]
-}
+    "version": 2,
+    "public": "./KISSMREMBO"
+  }
+  
